@@ -1,0 +1,3 @@
+This directory was created to track algorithms that I have completed or submitted for various goals. 
+One goal is for the submission of Scripts to HackerRank.  Another goal is for the completion of algorithms
+from the Coding Dojo Algorithm Challenges: The Dojo Collection by Martin Puryear.
