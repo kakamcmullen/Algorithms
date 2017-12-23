@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hacker Rank Algorithms</title>
+    <script>
+        function solve(a0, a1, a2, b0, b1, b2){
+            var Alice = 0;
+            var Bob = 0;
+            var A = [a0, a1, a2];
+            var B = [b0, b1, b2];
+            for(var x = 0; x <= 2; x++){
+                if(A[x] > B[x]){
+                Alice ++
+            }
+                else if(A[x] < B[x]){
+                Bob ++
+            }
+                else if(A[x] === B[x]);
+                Alice +=0;
+                Bob += 0;
+            }
+            console.log(Alice, Bob);
+
+        }
+        var a0 = 5;
+        var a1 = 6;
+        var a2 = 7;
+        var b0 = 3;
+        var b1 = 6;
+        var b2 = 10;
+        solve();
+    </script>
+</head>
+<body>
+<h1>These are JavaScript Algorithms located in the head using the developer tools in the browser to view results in the console.</h1>
+</body>
+</html>
